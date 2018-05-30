@@ -1,0 +1,6 @@
+use_frameworks!
+target 'EndEGoogleNews_Tests' do
+  pod 'EndEGoogleNews', :path => '../'
+  
+  
+end
