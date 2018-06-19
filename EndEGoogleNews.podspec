@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EndEGoogleNews'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EndEGoogleNews.'
+  s.version          = '1.0.0'
+  s.summary          = 'Easily create a valid Google News reqeust URL used to fetch news articles with the Google News RSS API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'Easily create a valid Google News reqeust URL used to fetch news articles with the Google News RSS API.  Using this API, a proper Google News request URL is fully formed y simply adding items such as search terms, filters, and parameters'
 TODO: Add long description of the pod here.
                        DESC
 
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/EndEGroup/EndEGoogleNews.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'EndEGoogleNews/Classes/**/*'
   
