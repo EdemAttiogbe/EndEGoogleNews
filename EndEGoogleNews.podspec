@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Easily create a valid Google News reqeust URL used to fetch news articles with the Google News RSS API.  Using this API, a proper Google News request URL is fully formed y simply adding items such as search terms, filters, and parameters'
+  s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
