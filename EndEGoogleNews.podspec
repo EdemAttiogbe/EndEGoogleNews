@@ -11,32 +11,15 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Easily create a valid Google News reqeust URL used to fetch news articles with the Google News RSS API.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-# s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Easily create a valid Google News reqeust URL used to fetch news articles with the Google News RSS API.  Using this API, a proper Google News request URL is fully formed y simply adding items such as search terms, filters, and parameters'
 
   s.homepage         = 'https://github.com/EndEGroup/EndEGoogleNews'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'EndEGroup' => 'edem.attiogbe@e-nd-e.com' }
   s.source           = { :git => 'https://github.com/EndEGroup/EndEGoogleNews.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'EndEGoogleNews/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EndEGoogleNews' => ['EndEGoogleNews/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'EndEGoogleNews/Classes/**/*'  
 end
